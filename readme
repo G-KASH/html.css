@@ -1,0 +1,66 @@
+✅ Base Styling
+Sets the global font to Roboto for modern readability.
+
+Applies default background color (#f8f9fa) and text color (#333) for good contrast and readability.
+
+Resets margin and padding for consistency across browsers.
+
+🧭 Navbar Styling
+The .navbar gets a dark background (#34495e) and padding for spacing.
+
+.nav-list uses flexbox to align items horizontally with spacing between (gap: 2rem).
+
+.nav-link styles links to:
+
+Remove underlines.
+
+Apply white bold text.
+
+Change to yellow (#f1c40f) on hover for interactivity.
+
+📄 Section Styling
+.section gives each section consistent padding and a bottom border for visual separation.
+
+🔻 Footer Styling
+.footer uses the same background as the navbar for consistency.
+
+Centers text and uses white color to contrast the dark background.
+
+🔹 HTML Structure Overview
+Your portfolio is structured using semantic HTML tags, ensuring both readability and accessibility.
+
+✅ 1. <!DOCTYPE html> & <html lang="en">
+Defines the document type and language, setting the foundation for the webpage.
+
+✅ 2. <head> Section
+Sets up meta tags for character encoding and responsive design.
+
+Includes the Roboto font via Google Fonts.
+
+Links to an external CSS file (styles.css) for styling.
+
+🔹 Navigation (<header> + <nav>)
+Contains a navbar with internal links: Home, About, Work, Resume, Contact.
+
+Styled using CSS classes: .navbar, .nav-list, .nav-link.
+
+🔹 Main Sections (<section>)
+Each section is clearly marked for easy navigation:
+
+#home: Welcomes users with a short intro.
+
+Other sections like #about, #work, #resume, and #contact should be added and given the class section to ensure styling is consistent.
+
+🔹 Footer
+Contains a copyright.
+
+Uses the class .footer for dark styling and centered white text.
+
+🔹 Styling (from styles.css)
+Sets a clean font and background color.
+
+Navigation is styled as a horizontal menu with hover effects.
+
+Sections have spacing and borders.
+
+The footer has a dark background with white text.
